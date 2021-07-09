@@ -14,4 +14,4 @@ There are five algorithms in the five R scripts:<br>
 </ol>
 <br>
 The code is used in the paper "Comparison of Stochastic Forecasting Methods" which will be uploaded soon.<br><br>
-<img src="tdngbm_tsla.png">
+<img src="tdngbm_tsla.png" height="500" width="500">
