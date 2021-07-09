@@ -2,7 +2,7 @@
 #### Shalin Shah
 The R code in this repository is an exercise in forecasting using one year of stock price data for four companies (TSLA, MSFT, TGT, WMT).
 <br><br>
-The data in the data folder contains one year of stock prices (downloaded from Yahoo finance) of each of the four countries (2020-06-24 to 2021-06-24).<br><br>
+The data in the data folder contains one year of stock prices (downloaded from Yahoo finance) of each of the four stocks (2020-06-24 to 2021-06-24).<br><br>
 The first 199 days are used as training data and the last 54 days are used as a test set for prediction.<br><br>
 There are five algorithms in the five R scripts:<br>
 <ol>
