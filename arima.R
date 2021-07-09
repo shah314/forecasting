@@ -1,4 +1,4 @@
-library(pracma)
+# Author: Shalin Shah
 library(forecast)
 set.seed(314)
 library(ggplot2)
