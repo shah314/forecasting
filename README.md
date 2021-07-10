@@ -7,7 +7,7 @@ The first 199 days are used as training data and the last 54 days are used as a 
 The code is used in the paper "Comparison of Stochastic Forecasting Models" which will be uploaded soon.<br><br>
 <b>Cite this code:</b>
 <pre>
-@misc{shah2021gforecast,
+@misc{shah2021forecast,
   title={Comparison of Stochastic Forecasting Models},
   author={Shah, Shalin},
   year={2021}
