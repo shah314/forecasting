@@ -14,4 +14,4 @@ There are five algorithms in the five R scripts:<br>
   <li>Kalman Filter</li>
 </ol>
 <br>
-<img src="images/tdngbm_tsla.png" height="500" width="500">
+<img src="images/tdngbm_tsla.png" height="500" width="500" alt="TDNGBM Predictions for Tesla" title="TDNGBM Predictions for Tesla">
