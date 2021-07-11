@@ -7,6 +7,7 @@
 # Try to get more data
 # Shorten the time horizon
 # Change the initial values
+# Consider working in log space
 
 library(Sim.DiffProc)
 library(ggplot2)
