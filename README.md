@@ -1,8 +1,8 @@
 # Stock Market Forecasting Exercise
 #### Shalin Shah
-The R code in this repository is an exercise in forecasting using one year of stock price data for four companies (TSLA, MSFT, TGT, WMT).
+The R code in this repository is an exercise in forecasting using one year of stock price data for three companies (TSLA, MSFT, TGT).
 <br><br>
-The data in the data folder contains one year of stock prices (downloaded from Yahoo finance) of each of the four stocks (2020-06-24 to 2021-06-24).<br><br>
+The data in the data folder contains one year of stock prices (downloaded from Yahoo finance) of each of the three stocks (2020-06-24 to 2021-06-24).<br><br>
 The first 199 days are used as training data and the last 54 days are used as a test set for prediction.<br><br>
 The code is used in the paper "Comparison of Stochastic Forecasting Models" which <a href="https://doi.org/10.31219/osf.io/7fepu">can be found here</a>.<br><br>
 <b>Cite this code:</b>
