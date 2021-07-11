@@ -24,6 +24,16 @@ There are five algorithms in the five R scripts:<br>
 <br>
 <img src="images/tdngbm_tsla.png" height="500" width="500" alt="TDNGBM Predictions for Tesla" title="TDNGBM Predictions for Tesla">
 <br>
+The stochastic differential equations are very sensitive to initial values (currently all 8 parameters are initialized to 0.01). If the confidence intervals appear too wide or if you see NaNs in the output, try any of the following:
+<br><br>
+<ul>
+<li>Try pmle="shoji" in fitsde (or try other methods for MLE)</li>
+<li>Try to use another random seed</li>
+<li>Try to get more data</li>
+<li>Shorten the time horizon</li>
+<li>Change the initial values</li>
+<li>Consider working in log space</li>
+</ul>
 The Bayesian filter was adapted from an implementation in [10]<br>
 <h3>References</h3>
 [1] Bernt Oksendal. Stochastic differential equations: an introduction with applications. Springer Science & Business Media, 2013.<br><br>
