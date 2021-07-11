@@ -14,8 +14,7 @@ library(ggplot2)
 set.seed(314)
 
 # Read the data
-#data <- read.table("Desktop/data/TSLA.csv", sep=',', header=T)
-data <- read.table("/Users/shah/Desktop/Topics in Mathematics/JHU/JHU Ninth Semester/Stochastic Differential Equations/Project/TSLA.csv", sep=',', header=T)
+data <- read.table("Desktop/data/TSLA.csv", sep=',', header=T)
 measure <- data$Close
 
 # Create drift and diffusion equations
