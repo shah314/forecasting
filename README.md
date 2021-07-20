@@ -28,7 +28,6 @@ The stochastic differential equations are very sensitive to initial values (curr
 <br><br>
 <ul>
 <li>Try pmle="shoji" in fitsde (or try other methods for MLE)</li>
-<li>Try to use another random seed</li>
 <li>Try to get more data</li>
 <li>Shorten the time horizon</li>
 <li>Change the initial values</li>

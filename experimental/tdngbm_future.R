@@ -3,7 +3,6 @@
 # The equation is very sensitive to initial values (currently all 8 parameters are initialized to 0.01)
 # If the confidence intervals appear too wide or if you see NaNs in the output, try the following:
 # Try pmle="shoji" in fitsde (or try other methods for MLE)
-# Try to use another random seed
 # Try to get more data
 # Shorten the time horizon
 # Change the initial values
