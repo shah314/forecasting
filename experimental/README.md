@@ -1,1 +1,1 @@
-<image src="bitcoin-price-prediction.png" alt="Bitcoin Price Prediction" title="Bitcoin Price Prediction">
+<img src="bitcoin-price-prediction.png" alt="Bitcoin Price Prediction" title="Bitcoin Price Prediction">
