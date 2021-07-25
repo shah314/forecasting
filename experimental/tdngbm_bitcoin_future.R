@@ -10,9 +10,7 @@
 
 library(Sim.DiffProc)
 set.seed(314)
-library(sde)
 library(ggplot2)
-library(aTSA)
 
 # Create drift and diffusion equations
 d <- expression(theta[1]*x + theta[2]*t + theta[3]*x^2 + theta[4]*t^2)
@@ -88,7 +86,7 @@ p <- ggplot()
 #p <- p + geom_line(aes(x=1:349, y=exp(exp(measure)), color="Original Data"))
 p <- p + geom_line(aes(x=350:363, y=exp(exp(measure_test)), color="Original Data TEST"))
 p <- p + geom_line(aes(x=350:399, y=exp(exp(sum_x)), color="Predicted using SDE"))
-p <- p + ylab("Value of the Stock")
+p <- p + ylab("Bitcoin Price")
 p <- p + xlab("Time in Days")
 p <- p + ggtitle("Bitcoin Price Prediction using TDNGBM")
 p <- p + geom_ribbon(aes(x=c(350:399), y = exp(exp(sum_x)), ymin=exp(exp(lower)), ymax=exp(exp(upper))), linetype=2, alpha=0.1)
