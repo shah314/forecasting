@@ -26,7 +26,7 @@ The stochastic differential equations are very sensitive to initial values (curr
 <li>Consider working in log space</li>
 </ul>
 The Bayesian filter was adapted from an implementation in [10]<br>
-<h3>References</h3>
+<h2>References</h2>
 [1] Bernt Oksendal. Stochastic differential equations: an introduction with applications. Springer Science & Business Media, 2013.<br><br>
 [2] Mohammad Rafiqul Islam and Nguyet Nguyen. Comparison of financial models for stock price prediction. Journal of Risk and Financial Management, 13(8):181, 2020.<br><br>
 [3] Harold Edwin Hurst. Long-term storage capacity of reservoirs. Transactions of the American society of civil engineers, 116(1):770–799, 1951.<br><br>
